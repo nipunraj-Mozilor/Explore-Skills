@@ -12,6 +12,7 @@
         return cookies[name] || null;
       }
       function getConsentStateForCategory(categoryConsent) {
+        console.log("jere");
         return categoryConsent === "yes" ? "granted" : "denied";
       }
 
